@@ -139,3 +139,33 @@ For a single season, * indicates they played at least 2/3rds of the team games t
 Positions after / indicate less than ten games played at those positions.
 For career, a + sign means more than 300 games at that position and
 a - sign means less than 30 games.
+
+
+TEAM SEASON STATS:
+
+Rk -- Rank
+This is a count of the rows from top to bottom.
+It is recalculated following the sorting of a column.
+W -- Wins
+L -- Losses
+W-L% -- Win-Loss Percentage
+W / (W + L)
+For players, leaders need one decision for every ten team games.
+For managers, minimum to qualify for leading is 320 games.
+R -- Runs Scored/Allowed
+RA -- Runs Allowed
+Rdiff -- Run Differential
+Runs Scored - Runs Allowed
+May be overall or per game
+SOS -- Strength of Schedule
+The number of runs per game their opponents are better (or worse) than the average team.
+Average ML team for years with inter-league play and just their league for other years.
+SRS -- Simple Rating System
+The number of runs per game they are better (or worse) than the average team.
+Average ML team for years with inter-league play and just their league for other years.
+SRS = Run Differential (R_diff) + Strength of Schedule (SOS)
+pythWL -- Pythagorean Win-Loss
+Expected Win-Loss record based on the number of runs scored
+and allowed by the team.
+Luck -- Pythagorean Luck
+The difference between the actual W-L and Pythagorean W-L.
